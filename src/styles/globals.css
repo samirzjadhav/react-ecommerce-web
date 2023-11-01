@@ -114,3 +114,8 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* Header Css */
+.h-container {
+  @apply justify-between pt-[1rem] pb-[1rem] text-[var(--secondary)];
+}

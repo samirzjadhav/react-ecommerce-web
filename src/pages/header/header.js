@@ -1,9 +1,9 @@
 import React from "react";
-
+import styles from "./styles.module.css";
 const header = () => {
   return (
-    <section className="h-wrapper">
-      <div className="h-container">
+    <section className={styles.hWrapper}>
+      <div className="flexCenter paddings innerwidth h-container">
         <img src="./logo.png" alt="Logo" width={100} />
         <div className="h-menu">
           <a href="">Residencies</a>

@@ -1,0 +1,3 @@
+.hWrapper {
+  @apply bg-[var(--black)] text-white;
+}
