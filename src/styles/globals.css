@@ -119,3 +119,20 @@ a {
 .h-container {
   @apply justify-between pt-[1rem] pb-[1rem] text-[var(--secondary)];
 }
+
+.h-menu {
+  @apply gap-[2rem];
+}
+
+.h-menu > *:hover {
+  @apply cursor-pointer;
+}
+
+.button {
+  @apply font-medium py-[0.6rem] px-[1.4rem] text-white border;
+  background-color: var(--blue-gradient);
+  transition: all 300ms ease-in;
+}
+.button:hover {
+  @apply cursor-pointer scale-110;
+}
