@@ -1,0 +1,3 @@
+.heroWrapper {
+  @apply text-white relative pb-[2rem] bg-black;
+}

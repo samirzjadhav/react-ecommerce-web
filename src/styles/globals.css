@@ -136,3 +136,21 @@ a {
 .button:hover {
   @apply cursor-pointer scale-110;
 }
+
+/* Hero Container */
+
+.hero-container {
+  @apply justify-between items-end;
+}
+
+/* hero container right side */
+.image-container {
+  @apply w-[30rem] h-[35rem];
+  border-radius: 15rem 15rem 0 0;
+  border: 8px solid rgba(255, 255, 255, 0.12);
+}
+
+.image-container > img {
+  @apply w-full h-full;
+  border-radius: 15rem 15rem 0 0;
+}
