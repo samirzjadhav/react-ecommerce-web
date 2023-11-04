@@ -143,6 +143,14 @@ a {
   @apply justify-between items-end;
 }
 
+/* left side */
+.hero-left {
+  @apply gap-[3rem];
+}
+
+.hero-title > h1 {
+  @apply font-semibold text-[3.8rem] leading-[4rem];
+}
 /* hero container right side */
 .image-container {
   @apply w-[30rem] h-[35rem];
