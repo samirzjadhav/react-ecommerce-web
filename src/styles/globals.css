@@ -148,9 +148,19 @@ a {
   @apply gap-[3rem];
 }
 
+.hero-title {
+  @apply relative z-10;
+}
+
+.orange-circle {
+  @apply h-[64px] w-[64px] absolute rounded-full right-[28%] top-[-10px] z-[-1];
+  background: var(--orange-gradient);
+}
+
 .hero-title > h1 {
   @apply font-semibold text-[3.8rem] leading-[4rem];
 }
+
 /* hero container right side */
 .image-container {
   @apply w-[30rem] h-[35rem];
