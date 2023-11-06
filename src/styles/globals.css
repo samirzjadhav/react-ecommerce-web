@@ -129,8 +129,8 @@ a {
 }
 
 .button {
-  @apply font-medium py-[0.6rem] px-[1.4rem] text-white border;
-  background-color: var(--blue-gradient);
+  @apply font-medium py-[0.5rem] px-[1.4rem] text-white border-none rounded-md;
+  background: var(--blue-gradient);
   transition: all 300ms ease-in;
 }
 .button:hover {
@@ -159,6 +159,15 @@ a {
 
 .hero-title > h1 {
   @apply font-semibold text-[3.8rem] leading-[4rem];
+}
+
+.search-bar {
+  @apply flex justify-center items-center px-[20px] py-[10px] bg-white rounded-md border-2 w-[100%];
+  border: 3px solid rgba(120, 120, 120, 0.374);
+}
+
+.search-bar > input {
+  @apply border-none outline-none text-black text-[18px] font-medium;
 }
 
 /* hero container right side */
