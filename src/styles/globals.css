@@ -170,6 +170,15 @@ a {
   @apply border-none outline-none text-black text-[18px] font-medium;
 }
 
+/* Stats */
+
+.stat > :nth-child(1) {
+  @apply text-[32px];
+}
+
+.stat > :nth-child(1) > :last-child {
+  color: orange;
+}
 /* hero container right side */
 .image-container {
   @apply w-[30rem] h-[35rem];
