@@ -190,3 +190,13 @@ a {
   @apply w-full h-full;
   border-radius: 15rem 15rem 0 0;
 }
+
+/* Companies */
+
+.c-container {
+  @apply justify-around gap-[16px] py-[20px];
+}
+
+.c-container > img {
+  @apply w-[144px];
+}
