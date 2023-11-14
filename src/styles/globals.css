@@ -202,6 +202,11 @@ a {
 }
 
 /* Swiper Slider */
+
+.r-container {
+  @apply relative;
+}
+
 .r-head {
   @apply mb-[32px];
 }
@@ -240,4 +245,13 @@ a {
 
 .swiper-horizontal {
   overflow: visible;
+}
+
+.r-buttons {
+  @apply absolute gap-[10px] top-[30px] right-[30px];
+}
+
+.r-buttons > button {
+  @apply text-[20px] py-[0.2rem] px-[0.8rem] text-[blue] border-none rounded-lg bg-white cursor-pointer;
+  box-shadow: 0 0 5px 1px #00000040;
 }

@@ -14,9 +14,10 @@ const residencies = () => {
         </div>
 
         <Swiper {...sliderSettings}>
+          <SliderButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
-              <div className="flexColStart r-card">
+              <div className="flexColStart r-card p-[10px]">
                 <img src={card.image} alt="home" />
                 <span className="secondaryText r-price">
                   <span style={{ color: "orange" }}>$</span>
@@ -30,6 +31,16 @@ const residencies = () => {
         </Swiper>
       </div>
     </section>
+  );
+};
+
+const SliderButtons = () => {
+  const swiper = useSwiper();
+  return (
+    <div className="r-buttons flexCenter">
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
+    </div>
   );
 };
 
