@@ -86,35 +86,6 @@ a {
   font-weight: 600;
 }
 
-/* media queries */
-@media (min-width: 1536px) {
-  .innerWidth {
-    max-width: 1280px;
-    margin: auto;
-  }
-}
-
-@media (min-width: 640px) {
-  .paddings {
-    padding: 4rem;
-  }
-}
-
-@media (min-width: 1280px), (min-width: 768px) {
-  .paddings {
-    padding: 2rem;
-  }
-}
-
-@media (max-width: 640px) {
-  .primaryText {
-    font-size: 1.5rem;
-  }
-  .orangeText {
-    font-size: 1.2rem;
-  }
-}
-
 /* Header Css */
 .h-container {
   @apply justify-between pt-[1rem] pb-[1rem] text-[var(--secondary)];
@@ -262,4 +233,75 @@ a {
 
 .r-buttons > :nth-child(2) {
   box-shadow: 0 0 5px 1px #00000040;
+}
+
+/* Value Section */
+.v-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+}
+
+.v-container > div {
+  @apply flex-1;
+}
+
+.v-right {
+  @apply gap-[8px];
+}
+
+.accordion {
+  @apply border-none !important;
+}
+
+.accordionItem {
+  @apply bg-white rounded-lg overflow-hidden mb-[20px] border;
+}
+
+.accordionItem.expanded {
+  @apply rounded-md;
+  box-shadow: var(--shadow);
+}
+
+.accordionButton {
+  @apply bg-white p-[16px] w-full justify-between;
+}
+
+.icon {
+  @apply p-[10px] bg-[#eeeeff] rounded-md;
+}
+
+.icon svg {
+  fill: var(--blue);
+}
+
+.accordionButton .primaryText {
+  @apply text-[18px];
+}
+
+/* media queries */
+@media (min-width: 1536px) {
+  .innerWidth {
+    max-width: 1280px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .paddings {
+    padding: 4rem;
+  }
+}
+
+@media (min-width: 1280px), (min-width: 768px) {
+  .paddings {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .primaryText {
+    font-size: 1.5rem;
+  }
+  .orangeText {
+    font-size: 1.2rem;
+  }
 }
