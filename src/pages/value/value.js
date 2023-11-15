@@ -9,7 +9,18 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 const value = () => {
-  return <div></div>;
+  return (
+    <section className="v-wrapper">
+      <div className="paddings innerWidth flexCenter v-container">
+        {/* Left Side */}
+        <div className="v-left">
+          <div className="image-container">
+            <img src="./value.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default value;
