@@ -4,6 +4,7 @@ import Header from "./header/header.js";
 import Hero from "./hero/hero.js";
 import Companies from "./companies/companies.js";
 import Residencies from "./residencies/residencies.js";
+import Value from "./value/value.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Companies />
       <Residencies />
+      <Value />
     </div>
   );
 }
