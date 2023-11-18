@@ -277,6 +277,25 @@ a {
   @apply text-[18px];
 }
 
+/* Contact */
+.c-container {
+  @apply justify-between;
+}
+
+.c-container > div {
+  @apply flex-1;
+}
+
+.c-riht {
+  @apply w-full;
+}
+
+.c-left {
+  @apply gap-[8px];
+}
+
+
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
