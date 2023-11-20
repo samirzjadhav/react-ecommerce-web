@@ -321,6 +321,16 @@ a {
   @apply text-[1.1rem] font-semibold;
 }
 
+.mode:hover {
+  @apply scale-[1.1];
+  box-shadow: var(--shadow);
+}
+
+.mode .button:hover {
+  @apply text-white scale-[0.8];
+  background: var(--blue-gradient);
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
