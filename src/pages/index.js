@@ -6,6 +6,7 @@ import Companies from "./companies/companies.js";
 import Residencies from "./residencies/residencies.js";
 import Value from "./value/value.js";
 import Contact from "./contact/contact.js";
+import GetStarted from "./getstarted/getstarted.js";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Residencies />
       <Value />
       <Contact />
+      <GetStarted />
     </div>
   );
 }

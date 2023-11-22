@@ -331,6 +331,22 @@ a {
   background: var(--blue-gradient);
 }
 
+/* Get Started */
+
+.inner-container {
+  @apply gap-[24px] p-[32px] rounded-xl text-center;
+  background: #4161df;
+  border: 6px solid #5d77d6;
+}
+
+.inner-container .primaryText {
+  @apply text-white font-semibold;
+}
+
+.inner-container .secondaryText {
+  color: rgba(255, 255, 255, 0.78);
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
