@@ -354,6 +354,19 @@ a {
   border-radius: 10px;
 }
 
+/* Footer */
+.f-container {
+  @apply justify-between;
+}
+
+.f-left {
+  @apply gap-[16px];
+}
+
+.f-menu {
+  @apply gap-[24px] mt-[24px] font-medium;
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
