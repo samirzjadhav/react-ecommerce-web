@@ -16,7 +16,7 @@ const header = () => {
           </button>
         </div>
       </div>
-      <div className="menu-icon">
+      <div className="menu-icon hidden">
         <BiMenuAltRight size={30} />
       </div>
     </section>
