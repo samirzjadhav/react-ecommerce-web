@@ -370,10 +370,10 @@ a {
 /* small Mobile */
 @media (max-width: 768px) {
   .menu-icon {
-    display: block;
+    @apply relative top-[-50px] block;
   }
   .h-menu {
-    @apply absolute top-[48px] right-[64px] flex-col font-medium gap-[32px] p-[48px] rounded-xl items-start;
+    @apply absolute top-[48px] right-[64px] flex-col font-medium gap-[32px] p-[48px] rounded-xl items-start z-[1000];
     color: var(--black);
     background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
