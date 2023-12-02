@@ -25,24 +25,19 @@ a {
   text-decoration: none;
 }
 .paddings {
-  padding: 1.5rem;
+  @apply p-[24px];
 }
 
 .innerWidth {
-  width: 100%;
+  @apply w-[100%];
 }
 
 .flexCenter {
-  display: flex;
+  @apply flex justify-center items-center flex-wrap;
   row-gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
 .flexStart {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  @apply flex justify-start items-center;
 }
 
 .flexEnd {
