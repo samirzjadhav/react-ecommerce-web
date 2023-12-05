@@ -41,44 +41,29 @@ a {
 }
 
 .flexEnd {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  @apply flex justify-end items-center;
 }
 
 .flexColCenter {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  @apply flex justify-center items-center flex-col;
 }
 .flexColStart {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  @apply flex flex-col justify-center items-start;
 }
 .flexColEnd {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
+  @apply flex flex-col justify-center items-end;
 }
 
 .primaryText {
-  color: #1f3e72;
-  font-weight: bold;
-  font-size: 2rem;
+  @apply text-[ #1f3e72] text-[32px] font-bold;
 }
 
 .secondaryText {
+  @apply text-[15px]
   color: rgb(140 139 139);
-  font-size: 0.9rem;
 }
 .orangeText {
-  color: orange;
-  font-size: 1.5rem;
-  font-weight: 600;
+  @apply text-orange-500 text-[24px] font-semibold;
 }
 
 /* Header Css */
@@ -385,21 +370,21 @@ a {
 
 @media (min-width: 640px) {
   .paddings {
-    padding: 4rem;
+    @apply p-[64px];
   }
 }
 
 @media (min-width: 1280px), (min-width: 768px) {
   .paddings {
-    padding: 2rem;
+    @apply p-[32px];
   }
 }
 
 @media (max-width: 640px) {
   .primaryText {
-    font-size: 1.5rem;
+    @apply text-[24px];
   }
   .orangeText {
-    font-size: 1.2rem;
+    @apply text-[20px];
   }
 }
