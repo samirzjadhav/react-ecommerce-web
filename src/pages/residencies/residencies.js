@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import data from "../../utilites/slider.json";
@@ -18,7 +19,7 @@ const residencies = () => {
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className="flexColStart r-card p-[10px]">
-                <img src={card.image} alt="home" />
+                <Image src={card.image} alt="home" />
                 <span className="secondaryText r-price">
                   <span style={{ color: "orange" }}>$</span>
                   <span>{card.price}</span>

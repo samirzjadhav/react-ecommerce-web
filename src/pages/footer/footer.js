@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const footer = () => {
   return (
@@ -6,7 +7,7 @@ const footer = () => {
       <div className="paddings innerWidth flexCenter f-container">
         {/* Left side */}
         <div className="flexColStart f-left">
-          <img src="./logo2.png" alt="" width={120} />
+          <Image src="./logo2.png" alt="" width={120} />
           <div className="secondaryText">
             Our vision is to make all people
             <br />

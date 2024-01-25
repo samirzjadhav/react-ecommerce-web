@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image";
 import styles from "./styles.module.css";
 import { BiMenuAltRight } from "react-icons/bi";
 
@@ -9,7 +10,7 @@ const Header = () => {
   return (
     <section className={styles.hWrapper}>
       <div className="flexCenter paddings innerwidth h-container">
-        <img src="./logo.png" alt="Logo" width={100} />
+        <Image src="./logo.png" alt="Logo" width={100} />
         <div className="flexCenter h-menu">
           {/* style={getMenuStyle(menuOpened)} */}
           <a href="">Residencies</a>

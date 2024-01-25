@@ -1,13 +1,14 @@
 import React from "react";
+import Image from "next/image";
 
 const companies = () => {
   return (
     <section className="c-wrappper">
       <div className="padding innerWidth flexCenter c-container px-[30px]">
-        <img src="./prologis.png" alt="" />
-        <img src="./tower.png" alt="" />
-        <img src="./equinix.png" alt="" />
-        <img src="./realty.png" alt="" />
+        <Image src="./prologis.png" alt="" />
+        <Image src="./tower.png" alt="" />
+        <Image src="./equinix.png" alt="" />
+        <Image src="./realty.png" alt="" />
       </div>
     </section>
   );

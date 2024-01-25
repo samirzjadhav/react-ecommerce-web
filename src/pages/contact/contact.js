@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+
 import { MdCall } from "react-icons/md";
 import { BsFillChatDotsFill } from "react-icons/bs";
 import { HiChatBubbleBottomCenter } from "react-icons/hi2";
@@ -80,7 +82,7 @@ const contact = () => {
         {/* right Side */}
         <div className="c-right">
           <div className="image-container">
-            <img src="./contact.jpg" alt="" />
+            <Image src="./contact.jpg" alt="" />
           </div>
         </div>
       </div>

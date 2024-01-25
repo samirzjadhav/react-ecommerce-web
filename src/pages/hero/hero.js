@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
+import Image from "next/image";
 import { HiLocationMarker } from "react-icons/hi";
 import CountUp from "react-countup";
 
@@ -56,7 +57,7 @@ const hero = () => {
         </div>
         <div className="flexCenter hero-right">
           <div className="image-container">
-            <img src="./hero-image.png" alt="" />
+            <Image src="./hero-image.png" alt="" />
           </div>
         </div>
       </div>
