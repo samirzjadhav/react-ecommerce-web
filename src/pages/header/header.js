@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <section className={styles.hWrapper}>
       <div className="flexCenter paddings innerwidth h-container">
-        <Image src="./logo.png" alt="Logo" width={100} />
+        <Image src="/logo.png" alt="Logo" width={100} height={100} />
         <div className="flexCenter h-menu">
           {/* style={getMenuStyle(menuOpened)} */}
           <a href="">Residencies</a>

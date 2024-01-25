@@ -57,7 +57,7 @@ const hero = () => {
         </div>
         <div className="flexCenter hero-right">
           <div className="image-container">
-            <Image src="./hero-image.png" alt="" />
+            <Image src="/hero-image.png" alt="" width={500} height={500} />
           </div>
         </div>
       </div>

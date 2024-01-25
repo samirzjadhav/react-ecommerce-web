@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from "next/image.js";
 import {
   Accordion,
   AccordionItemHeading,
@@ -18,7 +19,7 @@ const value = () => {
         {/* Left Side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <Image src="/value.png" alt="" width={100} height={100} />
           </div>
         </div>
 
