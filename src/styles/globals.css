@@ -66,6 +66,10 @@ a {
   @apply text-orange-500 text-[24px] font-semibold;
 }
 
+.center {
+  @apply items-center !important;
+}
+
 /* Header Css */
 .h-container {
   @apply justify-between pt-[1rem] pb-[1rem] text-[var(--secondary)];
@@ -113,7 +117,7 @@ a {
 }
 
 .search-bar {
-  @apply flex justify-center items-center px-[20px] py-[10px] bg-white rounded-md border-2 w-[100%];
+  @apply flex justify-center items-center px-[14px] py-[10px]  md:px-[20px] md:py-[10px] bg-white rounded-md border-2 w-[100%];
   border: 3px solid rgba(120, 120, 120, 0.374);
 }
 
@@ -132,7 +136,7 @@ a {
 }
 /* hero container right side */
 .image-container {
-  @apply w-[22rem] h-[25rem] md:w-[35rem] md:h-[30rem];
+  @apply w-[22rem] h-[25rem] md:w-[32rem] md:h-[35rem];
   border-radius: 15rem 15rem 0 0;
   border: 8px solid rgba(255, 255, 255, 0.12);
 }

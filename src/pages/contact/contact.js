@@ -10,7 +10,7 @@ const contact = () => {
     <section className="c-wrapper">
       <div className="paddings innerWidth flexCenter c-container">
         {/* Left Side */}
-        <div className="c-leftl flexColStart">
+        <div className="c-left flexColStart center">
           <span className="orangeText">Our Contact Us</span>
           <span className="primaryText">Easy to contact us</span>
           <span className="secondaryText">
@@ -18,9 +18,9 @@ const contact = () => {
             beleive a good blace to live can make your life better
           </span>
 
-          <div className="flexColStart contactModes">
+          <div className="flexColStart contactModes ">
             {/* First Row */}
-            <div className="flexStart row">
+            <div className="flexStart flex-col md:row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -48,7 +48,7 @@ const contact = () => {
               </div>
             </div>
             {/* Second row */}
-            <div className="flexStart row">
+            <div className="flexStart flex-col row">
               {/* Third Mode */}
               <div className="flexColCenter mode">
                 <div className="flexStart">
