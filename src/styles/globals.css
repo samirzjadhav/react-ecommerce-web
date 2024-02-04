@@ -132,7 +132,7 @@ a {
 }
 /* hero container right side */
 .image-container {
-  @apply w-[30rem] h-[35rem];
+  @apply w-[22rem] h-[25rem] md:w-[35rem] md:h-[30rem];
   border-radius: 15rem 15rem 0 0;
   border: 8px solid rgba(255, 255, 255, 0.12);
 }
@@ -343,6 +343,10 @@ a {
   @apply gap-[16px];
 }
 
+.active {
+  @apply flex !important;
+}
+
 .f-menu {
   @apply gap-[24px] mt-[24px] font-medium;
 }
@@ -350,10 +354,10 @@ a {
 /* small Mobile */
 @media (max-width: 768px) {
   .menu-icon {
-    @apply relative top-[-50px] block;
+    @apply relative block;
   }
   .h-menu {
-    @apply absolute top-[48px] right-[64px] flex-col font-medium gap-[32px] p-[48px] rounded-xl items-start z-[1000];
+    @apply absolute top-[48px] right-[64px] flex-col font-medium gap-[32px] p-[48px] rounded-xl items-start z-[1000] hidden;
     color: var(--black);
     background: white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);

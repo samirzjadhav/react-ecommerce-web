@@ -11,7 +11,11 @@ const Header = () => {
     <section className={styles.hWrapper}>
       <div className="flexCenter paddings innerwidth h-container">
         <Image src="/logo.png" alt="Logo" width={100} height={100} />
-        <div className="flexCenter h-menu">
+        <div
+          className={
+            menuOpened ? "flexCenter h-menu active" : "flexCenter h-menu"
+          }
+        >
           {/* style={getMenuStyle(menuOpened)} */}
           <a href="">Residencies</a>
           <a href="">Our Values</a>
@@ -21,7 +25,10 @@ const Header = () => {
             <a href="">Contact</a>
           </button>
         </div>
-        <div className="menu-icon hidden">
+        <div
+          className="menu-icon md:hidden"
+          onClick={() => setMenuOpened(!menuOpened)}
+        >
           <BiMenuAltRight size={30} />
         </div>
       </div>
