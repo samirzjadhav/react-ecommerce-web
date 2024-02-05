@@ -20,7 +20,7 @@ const contact = () => {
 
           <div className="flexColStart contactModes ">
             {/* First Row */}
-            <div className="flexStart flex-col md:row">
+            <div className="flexStart flex-col md:flex-row gap-[20px]">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -48,7 +48,7 @@ const contact = () => {
               </div>
             </div>
             {/* Second row */}
-            <div className="flexStart flex-col row">
+            <div className="flexStart flex-col md:flex-row gap-[20px]">
               {/* Third Mode */}
               <div className="flexColCenter mode">
                 <div className="flexStart">
