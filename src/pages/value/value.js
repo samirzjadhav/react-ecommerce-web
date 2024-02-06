@@ -15,7 +15,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 const value = () => {
   return (
     <section className="v-wrapper">
-      <div className="paddings innerWidth flexCenter v-container">
+      <div className="paddings innerWidth flexCenter v-container flex-col lg:flex-row">
         {/* Left Side */}
         <div className="v-left">
           <div className="image-container">

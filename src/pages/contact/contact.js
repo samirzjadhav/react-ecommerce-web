@@ -20,7 +20,7 @@ const contact = () => {
 
           <div className="flexColStart contactModes ">
             {/* First Row */}
-            <div className="flexStart flex-col md:flex-row gap-[20px]">
+            <div className="flexStart flex-col sm:flex-row gap-[20px]">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -48,7 +48,7 @@ const contact = () => {
               </div>
             </div>
             {/* Second row */}
-            <div className="flexStart flex-col md:flex-row gap-[20px]">
+            <div className="flexStart flex-col sm:flex-row gap-[20px]">
               {/* Third Mode */}
               <div className="flexColCenter mode">
                 <div className="flexStart">
@@ -80,7 +80,7 @@ const contact = () => {
           </div>
         </div>
         {/* right Side */}
-        <div className="c-right">
+        <div className="c-right flex justify-center">
           <div className="image-container">
             <Image src="/contact.jpg" alt="" width={400} height={400} />
           </div>

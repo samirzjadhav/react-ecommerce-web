@@ -95,7 +95,7 @@ a {
 /* Hero Container */
 
 .hero-container {
-  @apply justify-between items-end;
+  @apply lg:justify-between justify-center items-end;
 }
 
 /* left side */
